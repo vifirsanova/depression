@@ -1,0 +1,77 @@
+body {
+    font-family: Helvectica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0ff;
+}
+
+footer {
+  text-align: center
+}
+
+#quiz {
+    text-align: center;
+}
+
+a {
+    color: #9400d3
+}
+
+#score {
+    color: #fff;
+    font-size: 1px;
+}
+
+#question {
+    margin-bottom: 20px;
+}
+
+#choices {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f0f0ff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.quiz-container {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#retry {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%; /* Set width to 100% */
+}
+
+#retry:hover {
+    background-color: #c82333; /* Darker red color on hover */
+}
